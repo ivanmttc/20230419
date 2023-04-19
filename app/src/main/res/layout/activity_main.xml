@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#96245c"
+    >
+
+    <TextView
+        android:id="@+id/txv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="莫天賜介紹"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#13759c"
+        />
+
+        <TextView
+        android:id="@+id/txv_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性別:男\n年齡:25\n國籍:香港"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+            android:textColor="#44782C"
+        />
+
+    <TextView
+        android:id="@+id/txv_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="口頭禪:\n口袋裡鈔票的顏色，決定我今天心情的顏色"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#21483C"
+        />
+
+    <TextView
+        android:id="@+id/txv_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性格:外向/活潑"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#50238C"
+        />
+
+    <TextView
+        android:id="@+id/txv_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="興趣:咆哮/踢毽子"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#93671C"
+        />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_22">
+
+</LinearLayout>
